@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/foodSite/static/css/main.30221741.css",
+    "main.js": "/foodSite/static/js/main.15b5ca38.js",
+    "static/media/wine.jpg": "/foodSite/static/media/wine.f385aa5175d23c02b9b5.jpg",
+    "static/media/chef.jpg": "/foodSite/static/media/chef.aa8da15af1ab13f3e49e.jpg",
+    "static/media/croissant.jpg": "/foodSite/static/media/croissant.7d9a05f991cba57f8e27.jpg",
+    "static/media/salmon.jpg": "/foodSite/static/media/salmon.b53f37e6551f124294f7.jpg",
+    "static/media/cherries.jpg": "/foodSite/static/media/cherries.7ef56d51c7c24d4bcf3e.jpg",
+    "static/media/steak.jpg": "/foodSite/static/media/steak.884245d345083526bd03.jpg",
+    "static/media/popsicle.jpg": "/foodSite/static/media/popsicle.8988496ab1464c96806d.jpg",
+    "static/media/sandwich.jpg": "/foodSite/static/media/sandwich.070d2a53863bbf2bcb1b.jpg",
+    "static/media/workshop.jpg": "/foodSite/static/media/workshop.326b4fa2602a09804c3b.jpg",
+    "static/media/gondol.jpg": "/foodSite/static/media/gondol.20c27b42f86c6b5e2b07.jpg",
+    "index.html": "/foodSite/index.html",
+    "main.30221741.css.map": "/foodSite/static/css/main.30221741.css.map",
+    "main.15b5ca38.js.map": "/foodSite/static/js/main.15b5ca38.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30221741.css",
+    "static/js/main.15b5ca38.js"
+  ]
+}
