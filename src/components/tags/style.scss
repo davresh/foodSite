@@ -1,0 +1,13 @@
+@import '../../assets/style/mixin.scss';
+.city-box{
+    justify-content: left;
+    align-items: center;
+    margin-top: 10px;
+}
+.city-box span{
+    font-size: 13px;
+    color: white;
+    background-color: #ccc;
+    padding: 3px;
+    margin:0 5px 16px 0;
+}

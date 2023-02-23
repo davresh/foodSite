@@ -1,0 +1,44 @@
+@import '../../assets/style/mixin.scss';
+.foodBox{
+    width: 23%;
+    display:  flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: space-between;
+    text-align: center;
+    margin: 15px 1%;
+    @include screen(991px){
+        width: 31%;
+    }
+    @include screen(767px){
+        width: 48%;
+    }
+    @include screen(567px){
+        width: 300px;
+        margin: 15px 0;
+    }
+    .foodImg{
+        width: 100%;
+        img{
+            width: 100%;
+        }
+    }
+    h3{
+        padding: 10px 0;
+    }
+    .btn-buy{
+        width: 100%;
+        button{
+            border: none;
+            font-size: 19px;
+            padding: 10px 15px;
+            background-color: aquamarine;
+            color: white;
+            cursor: pointer;
+            &:hover{
+                background-color:chartreuse;
+            }
+        }
+    }
+}
+

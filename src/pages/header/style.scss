@@ -1,0 +1,57 @@
+@import '../../assets/style/mixin.scss';
+.container{
+    padding: 0 60px;
+    height: 60px;
+    background-color: white;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    box-shadow: 0 3px 5px 0px #ccc;
+    @media (max-width:567px) {
+        padding: 0 5px;
+    }
+    .fa-bars{
+        font-size: 25px;
+        padding: 17px 15px;
+        cursor: pointer;
+        &:hover{
+            background-color: #ccc;
+        }
+    }
+    .slider,.slidLeft,.slidRight{
+        display: flex;
+        flex-direction: column;
+        width: 500px;
+        height: 100vh;
+        position:absolute;
+        top: 0;
+        left: 0;
+        z-index: 20;
+        box-shadow: 2px 0 3px 0 #d6d6d6;
+        background-color: white;
+        transform: translateX(-500px);
+        @include screen(567px){
+           width: 300px;
+        }
+        a{
+            width: 100%;
+            padding: 20px 15px;
+            text-decoration: none;
+            color: black;
+            font-size: 23px;
+            cursor: pointer;
+            &:hover{
+                background-color: #ccc;
+            }
+        }
+    }
+    .slidLeft{
+        transform: translateX(-500px); 
+    }
+    .slidRight{
+        transform: translateX(0); 
+    }
+}

@@ -1,0 +1,110 @@
+@import '../../assets/style/mixin.scss';
+.block{
+    justify-content: left;
+    padding: 0 10px;
+    margin-top: 80px;
+    @include screen(567px){
+       justify-content: center;
+    }
+    .serchFood{
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px 0;
+        position: relative;
+        padding: 0 15px;
+        .box-change{
+            @include screen(767px){
+                width: 100%;
+                margin: 5px 0;
+            }
+            input{
+                width: 500px;
+                height: fit-content;
+                outline: 0;
+                border: none;
+                font-size: 20px;
+                padding: 10px 15px;
+                border: 1px solid #ccc;
+                border-radius: 5px;    
+                @include screen(567px){
+                    width: 100%;
+                }
+                &:focus{
+                    border: 1px solid white;
+                    box-shadow: 0 0 8px 1px lightskyblue;
+                }
+            }
+        }
+
+        .box-no-many{
+            width: 100%;height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: rgba(0, 0, 0, 0.606);
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 11;
+            .no-many{
+                width: 500px;height: 100px;
+                background-color: cadetblue;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                position: relative;
+                color: white;
+                @include screen(567px){
+                    width: 100%;
+                }
+                &:button{
+                    border: none;
+                    background-color: black;
+                    color: white;
+                    padding: 5px 10px;
+                    cursor: pointer;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    &:hover{
+                        background-color: #ccc;
+                        color: black;
+                    }
+                }
+            }
+        }
+        .resultSearch{
+            width: 700px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: left;
+            border: 1px solid #ccc;
+            background-color: white;
+            position: absolute;
+            top: 55px;
+            left: 15px;
+            @include screen(567px){
+                width: 100%;
+            }
+            div{
+                width: 100%;
+                color: rgb(170, 158, 158);
+                padding: 8px 5px;
+                border: 1px solid #f1f1f1;
+                cursor: pointer;
+                &:hover{
+                    background-color: rgb(32, 31, 31);
+                    color: white;
+                }
+            }
+        }
+      
+    }
+    .list{
+        justify-content: center;
+    }  
+}
+
+
+
+
